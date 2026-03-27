@@ -82,6 +82,10 @@ details summary {
     font-weight: bold;
 }
 
+img {
+    border-radius: 1em;
+}
+
 iframe {
     margin-top: 10px;
     border: 1px solid #3B3B1A;
@@ -146,7 +150,7 @@ a:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 620px) {
     .headx h1 {
         font-size: 1.8em;
     }
@@ -155,5 +159,9 @@ a:hover {
     }
     details iframe {
         height: 250px;
+    }
+    img {
+        width: 50%;
+        height: 50%;
     }
 }
