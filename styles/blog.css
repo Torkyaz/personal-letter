@@ -1,0 +1,159 @@
+/* Estilo general vintage */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #E7EFC7;
+    color: #4b3b2a;
+    margin: 0;
+    padding: 0;
+}
+
+.headx {
+    background-color: #8A784E;
+    color: #fffaf0;
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 3px solid #3B3B1A;
+}
+
+.headx h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fffaf0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
+    gap: 30px;
+}
+
+article {
+    background-color: #F7F7F7;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+    border-style: groove;
+    border-color: black;
+}
+
+article header h2 {
+    margin-top: 0;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+details {
+    margin-top: 15px;
+    background-color: #ECE7D1;
+    padding: 10px 15px;
+    border-left: 4px solid #AEC8A4;
+    border-radius: 6px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+iframe {
+    margin-top: 10px;
+    border: 1px solid #3B3B1A;
+    border-radius: 4px;
+}
+
+footer {
+    color: #3B3B1A;
+    text-align: right;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+a {
+    color: #AEC8A4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding: 20px 8%;
+    }
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav li {
+        margin: 5px 10px;
+    }
+    .headx h1 {
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 15px 5%;
+    }
+    article {
+        padding: 20px;
+    }
+    .headx h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin: 8px 0;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .headx h1 {
+        font-size: 1.8em;
+    }
+    article {
+        padding: 15px;
+    }
+    details iframe {
+        height: 250px;
+    }
+}

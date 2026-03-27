@@ -1,8 +1,7 @@
-* {
+body {
     background-color: #F2F2F2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 .title {
     justify-self: center;
@@ -113,6 +112,17 @@ div p, li, ul {
     display: flex;
     align-items: center;
     gap: 1px;
+}
+
+.social-media p, button, a{
+    background: none;
+}
+
+.bttn {
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 3em;
+    background-color: antiquewhite;
 }
 
 .social-media img{
